@@ -1,0 +1,79 @@
+body{
+    font-family: 'Metal Mania', cursive;
+    background-color: rgb(42, 43, 46);
+    margin: 0;
+    
+}
+
+.h{
+    font-size: 30px;
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 0;
+
+    
+    
+}
+
+#picked{
+    font-size: 50px;
+    
+    letter-spacing: 5px;
+    
+}
+
+.o{
+    
+    height: 170px;
+    margin: 10px;
+    border-radius: 80px;
+    
+
+}
+.row{
+    height: 40%;
+}
+
+#w{
+    height:40px;
+    background-color: white;
+    text-align: center;
+    color: steelblue;
+    margin-bottom: 22px;
+}
+
+#win{
+  display: inline-block;
+  width: 33%;
+}
+
+
+
+
+
+
+
+
+
+/* This is a glow classs */
+.glow {
+    font-size: 16px;
+    color: #fff;
+
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
